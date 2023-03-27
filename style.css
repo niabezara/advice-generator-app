@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #202733;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: 34.3rem;
+  height: 31.5rem;
+  background: #313a48;
+  box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+  padding: 4rem 2.4rem 3.4rem 2.4rem;
+}
+
+.desktop-pattern {
+  display: none;
+}
+.advice {
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 3.45714px;
+  color: #53ffaa;
+}
+
+.text {
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: -0.257143px;
+  color: #cee3e9;
+}
+
+.dice-roll {
+  background: #53ffaa;
+  border-radius: 3.2rem;
+  width: 6.4rem;
+  height: 6.4rem;
+  transform: translateY(-52%);
+  border: none;
+}
+
+.dice-roll:hover {
+  background: #53ffaa;
+  box-shadow: 0px 0px 40px #53ffaa;
+  cursor: pointer;
+}
+.display_quote {
+  letter-spacing: -0.257143px;
+  color: #cee3e9;
+}
+@media screen and (min-width: 1440px) {
+  .card {
+    width: 54rem;
+    height: 33.2rem;
+  }
+
+  .mobile-pattern {
+    display: none;
+  }
+  .desktop-pattern {
+    display: block;
+  }
+}
